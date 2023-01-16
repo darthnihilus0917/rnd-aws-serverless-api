@@ -1,5 +1,5 @@
-# basic-aws-lambda-function
-Repository for the basic relationships of AWS Services: Lambda Functions - API Gateway - DynamoDB
+# Basic AWS Lambda Function - Implementation
+Repository for the basic relationships of AWS Services: Lambda Functions - API Gateway - DynamoDB.
 
 ## Requirements
 1. AWS Account
@@ -13,9 +13,12 @@ Repository for the basic relationships of AWS Services: Lambda Functions - API G
 
 1. Create a Role for the AWS Services to consume.  If an existing role is available that covers all AWS Services, use it.
 
-1. Go to API Gateway and create the resources structure and methods (http request: GET, POST, PATCH, DELETE) and map the created empty Lambda Function.
+1. Go to API Gateway and create the resources structure and methods (http request: GET, POST, PATCH, DELETE), and then map the created empty Lambda Function.
 
 1.  Go back to the empty Lambda Function, and apply the code implementations per methods.
+
+### Note
+To test the script locally, make sure to install AWS SDK.
 
 ## Reminders
 1. While creating a method in the API Gateway, do not forget to mark the "Use Lambda Proxy Integration" checkbox.
