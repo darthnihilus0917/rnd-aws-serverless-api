@@ -1,7 +1,8 @@
-// BASIC LAMBDA IMPLEMENTATION USING
-// - POSTMAN: SERVING AS FRONTEND
-// - API GATEWAY: TO BE CONSUMED BY THE LAMBDA FUNCTION
-// - LAMBA FUNCTION: TO SERVCE AS MICROSERVICE
+// BASIC AWS LAMBDA IMPLEMENTATION USING:
+// * POSTMAN - Serve as a frontend to test the API calls declared in the API Gateway
+// * AWS API GATEWAY: To be consumed by Lambda Function and Front End
+// * AWS LAMBA FUNCTION: For manageable microservice
+// * AWS DynamoDB: Temporary database to showcase database connectivity
 const AWS = require('aws-sdk');
 AWS.config.update({ region: 'us-east-1' });
 const dynamo = new AWS.DynamoDB.DocumentClient();
